@@ -1,0 +1,100 @@
+/* Estilo aplicado em todos elementos dentro da tag "body" */
+body {
+    /*Padding dos elementos*/
+    padding: 20px;
+}
+
+/* Estilo para a tag de Parágrafos (<p>) */
+p {
+    /*Cor do texto*/
+    color: green;
+    /*Tamanho da fonte*/
+    font-size: 30px;
+}
+
+/* Estilo para a classe "p-numerados" */
+.p-numerados {
+    /*Fonte aplicada ao texto*/
+    font-family: 'Courier New';
+    /*Cor do texto*/
+    color: blueviolet;
+    /*Cor de fundo do elemento*/
+    background-color: yellowgreen;
+}
+
+/* Estilo para o id "p1" */
+#p1 {
+    /*Cor de fundo do elemento*/
+    background-color: black;
+    /*Cor do texto do elemento*/
+    color: red;
+}
+
+/*Estilo para os elementos com a tag "h2"*/
+h2 {
+    /*estilo da borda inferior do elemento*/
+    border-bottom: 1px solid red;
+}
+
+/* Estilo aplicado a todos elementos da página (Essas config têm uma menor 
+prioridade que as configs mais específicas)
+
+Menor para maior prioridade:
+
+"*" < tag (<nome_da_tag>) < class (.nome_da_classe) < id (#id_do_elemento)
+
+E as configs da tag "body" têm menor prioridade que as configs de uma tag que está dentro da tag "body"
+
+*/
+
+* {
+    /*Fonte aplicada ao texto*/
+    font-family: Arial;
+}
+
+/* Estilo para a classe "decoration" */
+ .decoration {
+    /*altera o estilo dos links (tirando o sublinhado que apareceria)*/
+    text-decoration: none;
+    /*transição é a duração da animação que vai aparecer quando o mouse passar por cima*/
+    transition: 0.5s;
+}
+
+/*a tag "a" é a responsável por links, ":visited" determina que estilo 
+é aplicado quando for detectado que o link já foi visitado*/
+a:visited {
+    /*isso fara o texto mudar de cor*/
+    color: rgb(241, 13, 13);
+}
+
+/*":hover" determina que estilo é aplicado quando o mouse passa por cima de um elemento*/
+a:hover {
+    /*cor de fundo que será aplicada*/
+    background-color: yellow;
+}
+
+/* Essa parte está configurando as fontes dos textos de cada classe */
+.serifada {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sem-serifa {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monoespacada {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*estilo a ser aplicado na classe "caixa"*/
+.caixa {
+    /*comprimento da caixa*/
+    width: 150px;
+    /*altura da caixa*/
+    height: 100px;
+    /*estilo da borda da caixa*/
+    border: 10px solid blue;
+    /*padding e margem da caixa*/
+    padding: 100px;
+    margin: 100px;
+}
+

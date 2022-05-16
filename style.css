@@ -1,0 +1,35 @@
+/* Estilo aplicado a todos elementos dentro da tag body */
+body {
+    /*Fonte usada no texto*/
+    font-family: sans-serif;
+}
+
+/* Estilo aplicado no elemento com id "div-paragrafos" */ 
+#div-paragrafos {
+    /*Cor do texto do elemento*/
+    color: aliceblue;
+    /*Cor de fundo do elemento*/
+    background-color: rgb(93, 93, 145);
+}
+
+/* Estilo aplicado nos elementos com a classe "longo" */ 
+.longo {
+    /*Cor de fundo do elemento*/
+    background-color: pink;
+}
+
+/* Estilo aplicado no elemento com o id "p1 */ 
+#p1 {
+    /*Cor do texto do paragrafo*/
+    color: brown;
+    /*Tamanho da fonte*/
+    font-size: 30px;
+    /*Fontes que podem ser usadas no texto*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Estilo aplicado no elemento para a tag <p> */
+p {
+    /*Fontes que podem ser usadas no texto*/
+    font-family: 'Courier New', Courier, monospace;
+}
